@@ -1,7 +1,6 @@
 import { ErrorFallbackProps, ErrorComponent } from "@blitzjs/next";
 import { AuthenticationError, AuthorizationError } from "blitz";
 import React from "react";
-import "src/styles/globals.css";
 
 export function RootErrorFallback({ error }: ErrorFallbackProps) {
   if (error instanceof AuthenticationError) {
