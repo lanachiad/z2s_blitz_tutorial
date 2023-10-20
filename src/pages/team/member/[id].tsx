@@ -1,6 +1,6 @@
 import React from "react";
 import { BlitzPage } from "@blitzjs/next";
-import { useStringParam } from "../../../utils/utils";
+import { useStringParam } from "@/utils/utils";
 
 const TeamPage: BlitzPage = () => {
   const id = useStringParam("id");

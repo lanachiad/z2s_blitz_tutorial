@@ -1,5 +1,5 @@
 import React from "react";
-import { useStringParam } from "../../utils/utils";
+import { useStringParam } from "@/utils/utils";
 
 const BlogPostPage = () => {
   const slug = useStringParam("slug");
